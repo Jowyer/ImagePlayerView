@@ -38,8 +38,6 @@
     self.imagePlayerView.edgeInsets = UIEdgeInsetsMake(10, 20, 30, 40);
     
     [self.imagePlayerView reloadData];
-    
-    ImagePlayerView *test = [[ImagePlayerView alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
