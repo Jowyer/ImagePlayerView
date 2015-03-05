@@ -40,6 +40,11 @@
     [self.imagePlayerView reloadData];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [self.imagePlayerView adjustScrollViewContentOffset];
+    [super viewDidAppear:YES];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
